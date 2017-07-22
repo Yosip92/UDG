@@ -1,0 +1,55 @@
+body {
+  font-size: 12px;
+  background: blue;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #90aeb5 1px solid;
+  margin: 15px;
+  padding-bottom: 15px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+body header .title-logo {
+  display: flex;
+  justify-content: space-around;
+}
+body header .title-logo .logo {
+  height: 25px;
+  margin-right: 14px;
+}
+body header .title-logo .title {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 0;
+  color: #ffffff;
+}
+body header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .menu p {
+  color: #ffffff;
+  border: solid 1px #bfd72f;
+  padding: 7px 4px;
+  margin: 0 15px 0 0;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+body header .menu .glass {
+  height: 15px;
+  border-right: solid #90aeb5 1px;
+  border-left: solid #90aeb5 1px;
+  padding: 0 15px;
+}
+body header .menu .items {
+  margin-left: 15px;
+}
+body .adad {
+  height: 10000px;
+}
