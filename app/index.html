@@ -18,14 +18,46 @@
     </div>
     <div class="menu">
       <p>en</p>
-      <img class="glass" src="images/UDG_01_xs (1).png" alt="">
-      <a href="" class="items">
+      <div onclick="search()">
+        <img class="glass" src="images/UDG_01_xs (1).png" alt="search">
+      </div>
+      <div onclick="menu()" class="img-items">
         <img src="images/UDG_01_xs (2).png" alt="">
-      </a>
+      </div>
+      <div class="items">
+        <a class="item" href="#home">HOME</a>
+        <a class="item" href="#about">ABOUT US</a>
+        <a class="item" href="#">PROJECT</a>
+        <a class="item" href="#">CLIENTS</a>
+        <a class="item" href="#">PARTNERS</a>
+        <a class="item" href="#">NEWS</a>
+        <a class="item" href="#">CONTACTS</a>
+      </div>
     </div>
+    <input class="search" type="search" name="search" placeholder="What you are looking for?">
   </header>
+  <div id="home">
+    <div class="arrows">
+      <div class="point1"></div>
+      <div class="point2"></div>
+      <div class="point3"></div>
+      <div class="point4"></div>
+      <div class="point5"></div>
+      <div class="point6"></div>
+      <div class="point7"></div>
+      <div class="arrows_inside">
+        <img class="arleft" src="images/arleft.png" alt="">
+        <span class="number">
+          <span class="num1">1</span> of 4
+        </span>
+        <img class="arright" src="images/arright.png" alt="">
+        <h1 class="hostel">HOSTEL FOR STUDENTS OF KPI</h1>
+      </div>
+    </div>
+  </div>
   <div class="adad"></div>
   <script src="script/vendor/jquery-3.2.1.js"></script>
   <script src="script/vendor/bootstrap.js"></script>
+  <script src="script/main.js"></script>
 </body>
 </html>

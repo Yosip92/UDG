@@ -1,6 +1,6 @@
 body{
   font-size: 12px;
-  background: blue;
+  margin: -15px 0 0 0;
   header {
     display: flex;
     justify-content: space-between;
@@ -15,6 +15,7 @@ body{
     .title-logo {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       .logo {
         height: 25px;
         margin-right: 14px;
@@ -35,18 +36,136 @@ body{
         border: solid 1px #bfd72f;
         padding: 7px 4px;
         margin: 0 15px 0 0;
+        font-family: Roboto, light;
         font-size: 14px;
         text-transform: capitalize;
       }
       .glass {
         height: 15px;
-        // border: solid #90aeb5 0;
         border-right: solid #90aeb5 1px;
         border-left: solid #90aeb5 1px;
         padding: 0 15px;
       }
-      .items {
+      .glass:hover {
+        cursor: pointer;
+      }
+      .img-items {
         margin-left: 15px;
+      }
+      .items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        // background: url(../images/points.png);
+        .item {
+          display: block;
+          color: #ffffff;
+        }
+      }
+    }
+    .search {
+      display: none;
+      position: fixed;
+      top: 55px;
+      left: 0;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 15px;
+      border: none;
+      color: #ffffff;
+    }
+    .search::-webkit-search-cancel-button {
+      -webkit-appearance: none;
+      width: 17px;
+      height: 16px;
+      background: url(../images/close.png);
+      background-repeat: no-repeat;
+      cursor: pointer;
+      padding-right: 15px;
+    }
+    .search::-webkit-input-placeholder {
+      color: #ffffff;
+    }
+  }
+  #home {
+    background-image: url(../images/back.png);
+    background-attachment: fixed;
+    margin: 0;
+    .arrows {
+      height: 460px;
+      // background-image: url(../images/backgreen.png);
+      background: rgba(51, 105, 103, 0.6);
+      position: relative;
+      .point1 {
+        position: absolute;
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        top: 120px;
+        left: 81px;
+      }
+      .point2 {
+        position: absolute;
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        top: 96px;
+        left: 115px;
+      }
+      .point3 {
+        position: absolute;
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        top: 440px;
+        left: 268px;
+      }
+      .point4 {
+        position: absolute;
+        background: #8dc63f;
+        height: 10px;
+        width: 10px;
+        top: 436px;
+        left: 56px;
+      }
+      .point5 {
+        position: absolute;
+        background: #8dc63f;
+        height: 10px;
+        width: 10px;
+        top: 382px;
+        left: 277px;
+      }
+      .point6 {
+        position: absolute;
+        background: #8dc63f;
+        height: 10px;
+        width: 10px;
+        top: 421px;
+        left: 287px;
+      }
+      .arrows_inside {
+        top: 140px;
+        left: 15px;
+        border-left: solid 6px #8dc53f;
+        position: absolute;
+        padding-left: 30px;
+        padding-right: 50px;
+        padding-top: 30px;
+        color: #ffffff;
+        .number {
+          font-family: Acrom;
+          font-weight: lighter;
+          font-size: 14px;
+          .num1 {
+            color: #bed62f;
+          }
+        }
+        h1 {
+          font-size: 40px;
+        }
       }
     }
   }
