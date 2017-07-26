@@ -6,11 +6,21 @@ function search(){
 
 function menu(){
     $('.items').slideToggle(200);
-    // $('#home').css("background", "url(../images/points.png)")
+    if ($('.items').css('display') == "block") {
+        $('.items').css('display', 'flex');
+        $('#home').css({"background": "url(images/points.png)"});
+    } else {
+        $('#home').css({"background": "url(images/back.png)", });
+        // console.log('hello')
+    }
     return false;
 };
 
-(function() {
+var width = window.innerWidth;
+$('.search').css("width", width);
+
+window.addEventListener("resize", searchFunction);
+function searchFunction() {
     var width = window.innerWidth;
-    $('.search').css("width", width);    
-})();
+    $('.search').css("width", width);
+};

@@ -1,0 +1,37 @@
+#about {
+  text-align: center;
+  padding: 0 15px;
+}
+#about .title-block2 {
+  text-align: left;
+  margin-top: 25px;
+}
+#about .title-block2 .title2 {
+  font-size: 26px;
+  margin-left: 10px;
+}
+#about .title-block2 .points2 {
+  float: right;
+  margin-top: 30px;
+}
+#about .image-block2 {
+  margin-top: 5px;
+  box-shadow: 0px 0px 15px 0px #6d808a;
+}
+#about .text-about {
+  font-size: 17px;
+  text-align: left;
+  line-height: 25px;
+}
+#about .read {
+  text-align: left;
+}
+#about .read .more {
+  font-size: 15px;
+  color: #439c92;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#about .read .go {
+  margin-left: 20px;
+}
