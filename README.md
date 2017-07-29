@@ -1,2 +1,1 @@
-# UDG
-Dmytro Radai
+This page is published at https://yosip92.github.io/UDG/.
