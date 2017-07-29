@@ -1,0 +1,44 @@
+#project {
+  padding: 0 15px;
+}
+#project .proj {
+  margin-top: 33px;
+  height: 367px;
+  width: 290px;
+  margin-left: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#project .proj h3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+#project .proj .button {
+  color: #ffffff;
+  font-size: 13px;
+  padding: 8px 15px;
+  background: #439b91;
+  border-radius: 3px;
+  text-decoration: none;
+  width: 42%;
+}
+#project .proj .button {
+  box-shadow: 0px 0px 15px 0px #6d808a;
+}
+#project .proj:hover {
+  box-shadow: 0px 0px 15px 0px #6d808a;
+}
+#project .proj:nth-child(1) {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block3-back1.png);
+}
+#project .proj:nth-child(2) {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block3-back2.png);
+}
+#project .proj:nth-child(3) {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block3-back3.png);
+}
+#project .proj:nth-child(4) {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/block3-back4.png);
+}
